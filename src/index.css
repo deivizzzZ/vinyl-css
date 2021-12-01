@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+.cover {
+  background-color: darkgrey;
+  width: 250px;
+  height: 250px;
+  background-image: url("assets/cover.jpg");
+  background-size: cover;
+}
+
+.vinyl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.hole {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
